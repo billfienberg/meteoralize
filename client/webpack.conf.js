@@ -7,6 +7,7 @@ module.exports = {
     loaders: [
       { test: /\.jsx?$/, 
         loader: 'babel',
+        query: { stage: 0 },
         exclude: /node_modules/ }
     ]
   }
