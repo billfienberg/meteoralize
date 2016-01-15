@@ -1,14 +1,12 @@
 module.exports = {
   entry: './entry',
-  resolve: {
-    extensions: ['', '.js', '.jsx', '.json']
-  },
   module: {
     loaders: [
-      { test: /\.jsx?$/, 
+      { test: /\.jsx?$/,
         loader: 'babel',
         query: { stage: 0 },
-        exclude: /node_modules/ }
+        exclude: /node_modules/
+      }
     ]
   }
 };
