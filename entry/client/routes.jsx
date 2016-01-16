@@ -3,13 +3,19 @@ import ReactDOM from "react-dom";
 import { Router, Route, Link, IndexRoute } from "react-router";
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 
+import AccountsUIWrapper from "shared/AccountsUIWrapper";
 import Home from "Home/routes";
 import Settings from "Settings/routes";
 import Other from "Other/routes";
 
-const App = react.createClass({
+const App = React.createClass({
   render() {
-    return <div>{this.props.children}</div>
+    return (
+      <div>
+        <AccountsUIWrapper />
+        {this.props.children}
+      </div>
+    )
   }
 })
 
