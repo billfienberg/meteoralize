@@ -12,7 +12,7 @@ const App = React.createClass({
   render() {
     return (
       <div>
-        <AccountsUIWrapper />
+        {/*<AccountsUIWrapper />*/}
         {this.props.children}
       </div>
     )
