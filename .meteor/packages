@@ -20,3 +20,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 webpack:webpack
 accounts-ui
 accounts-facebook
+materialize:materialize
