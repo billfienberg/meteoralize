@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import Links from '../../shared/Links';
 import Nav from '../../Nav/components/Nav'
 
 export default class Home extends Component {
