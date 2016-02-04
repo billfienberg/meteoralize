@@ -7,12 +7,13 @@ import AccountsUIWrapper from "shared/AccountsUIWrapper";
 import Home from "Home/routes";
 import Settings from "Settings/routes";
 import Other from "Other/routes";
+import Nav from "Nav/components/Nav";
 
 const App = React.createClass({
   render() {
     return (
       <div>
-        {/*<AccountsUIWrapper />*/}
+        <Nav />
         {this.props.children}
       </div>
     )

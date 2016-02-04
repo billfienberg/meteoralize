@@ -7,8 +7,6 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Nav />
-        <Links />
         <h1>This is the Home component.</h1>
       </div>
     )

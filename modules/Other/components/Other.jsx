@@ -6,7 +6,6 @@ export default class Other extends Component {
   render() {
     return (
       <div>
-        <Links />
         <h1>This is the Other component.</h1>
       </div>
     )
